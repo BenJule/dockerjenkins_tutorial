@@ -16,6 +16,7 @@ nginx:
   - master:jenkins-master
 slave:
  build: jenkins-slave
+ build: android-slave
 proxy:
  image: ehazlett/docker-proxy:latest
  command: -i
